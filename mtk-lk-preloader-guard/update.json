@@ -1,6 +1,6 @@
 {
-  "version": "3.0",
-  "versionCode": 300,
+  "version": "3.1",
+  "versionCode": 301,
   "zipUrl": "https://raw.githubusercontent.com/Gong-Mi/magisk-module-files/main/mtk-lk-preloader-guard/module.zip",
-  "changelog": "Preserve LK/preloader by-name and mapper symlinks; remove only final real block nodes. Add explicit restore mode for system OTA and a late-start verification pass."
+  "changelog": "guard.sh / restore.sh / verify.sh are standalone manual entrypoints (sh <script>); action.sh is now a thin toggle wrapper over them."
 }
