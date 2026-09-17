@@ -1,0 +1,6 @@
+{
+  "version": "3.0",
+  "versionCode": 300,
+  "zipUrl": "https://raw.githubusercontent.com/Gong-Mi/magisk-module-files/main/mtk-lk-preloader-guard/module.zip",
+  "changelog": "Preserve LK/preloader by-name and mapper symlinks; remove only final real block nodes. Add explicit restore mode for system OTA and a late-start verification pass."
+}
